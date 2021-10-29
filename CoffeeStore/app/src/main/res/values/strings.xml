@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoffeeStore</string>
+    <string name="store_name">Andrew\'s Coffee Store</string>
+    <string name="store_location">7201 Townsend Rd, Jacksonville, Florida</string>
+    <string name="store_phone">(+1)765-997-8548</string>
+    <string name="store_worktime">8:00 am - 9:00 pm</string>
+    <string name="store_site">example.com</string>
+</resources>
