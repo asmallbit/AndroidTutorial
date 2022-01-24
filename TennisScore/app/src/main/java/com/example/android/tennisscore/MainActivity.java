@@ -11,16 +11,24 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     // Seems like we can only declare a global variable if we dont we it be final:<
-    int teamAScoreS, teamBScoreS, teamAScoreL, teamBScoreL;
+    int teamAScoreS;    //Sorry, I don't know what it called in English;    Team A每局的小分 S means Small
+    int teamBScoreS;    // Team B每局的比分
+    int teamAScoreL;    // Team A的大比分 L means Large
+    int teamBScoreL;    // Team B的大比分
 
-    TextView teamAS, teamBS, teamAL, teamBL;
+    TextView teamAS;
+    TextView teamBS;
+    TextView teamAL;
+    TextView teamBL;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button teamAbtn, teamBbtn, resetbtn;
+        Button teamAbtn;
+        Button teamBbtn;
+        Button resetbtn;
 
         teamAScoreS = teamBScoreS = teamAScoreL = teamBScoreL = 0;
 
@@ -91,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // End this round and begin next round
-    public int nextRound(int x, int y){
+    private int nextRound(int x, int y){
         if(isNextRound(x, y) == -1){
             // x win in this round
             teamAScoreL++;
@@ -112,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
         return 0;
     }
 
-    public void isEnd(int x, int y){
+    private void isEnd(int x, int y){
         if(isNextRound(x, y) == -1){
             // x win
             Toast.makeText(getApplicationContext(), "Game over, A win!!!", Toast.LENGTH_LONG).show();

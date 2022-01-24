@@ -20,7 +20,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEAM A"
+                android:text="@string/a_name"
                 android:textSize="20sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp" />
@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/teamAS"
-                android:text="0"
+                android:text="@string/a_scoreS"
                 android:textSize="50sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp" />
@@ -38,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/teamAL"
-                android:text="0"
+                android:text="@string/a_scoreL"
                 android:textSize="30sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="16dp" />
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/teamAbtn"
-                android:text="+1 POINT"
+                android:text="@string/add_point_btn"
                 android:layout_gravity="center_horizontal"
                 android:backgroundTint="@color/black"/>
 
@@ -68,7 +68,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEAM B"
+                android:text="@string/b_name"
                 android:textSize="20sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp" />
@@ -77,7 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/teamBS"
-                android:text="0"
+                android:text="@string/b_scoreS"
                 android:textSize="50sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp" />
@@ -86,7 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/teamBL"
-                android:text="0"
+                android:text="@string/b_scoreL"
                 android:textSize="30sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="16dp" />
@@ -95,7 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/teamBbtn"
-                android:text="+1 POINT"
+                android:text="@string/add_point_btn"
                 android:layout_gravity="center_horizontal"
                 android:backgroundTint="@color/black"/>
         </LinearLayout>
@@ -109,7 +109,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
-        android:text="RESET"
+        android:text="@string/reset_btn"
         android:backgroundTint="@color/black" />
 
 </RelativeLayout>

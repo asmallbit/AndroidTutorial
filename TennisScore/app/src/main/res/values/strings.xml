@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Tennis Score</string>
+    <string name="a_name">Team A</string>
+    <string name="a_scoreL">0</string>
+    <string name="a_scoreS">0</string>
+    <string name="b_name">Team B</string>
+    <string name="b_scoreL">0</string>
+    <string name="b_scoreS">0</string>
+    <string name="add_point_btn">+1 POINT</string>
+    <string name="reset_btn">RESET</string>
 </resources>
